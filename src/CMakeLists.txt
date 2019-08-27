@@ -5,4 +5,4 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 project(cpp-examples)
 add_executable(cpp-examples template_function/template_function.cpp template_function/main.cpp)
-
+add_subdirectory(ext/googletest)
