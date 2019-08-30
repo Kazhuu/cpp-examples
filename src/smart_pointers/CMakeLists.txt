@@ -1,0 +1,1 @@
+add_executable(unique_pointer unique_pointer.cpp)
