@@ -1,0 +1,1 @@
+add_executable(rvalue_and_lvalue rvalue_and_lvalue.cpp)
