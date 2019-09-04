@@ -3,7 +3,8 @@
 
 using namespace std;
 
-int avarage_with_count(int count, ...) {
+int avarage_with_count(int count, ...)
+{
     double sum = 0;
     va_list vargs;
     va_start(vargs, count);
@@ -17,6 +18,7 @@ int avarage_with_count(int count, ...) {
     return sum / count;
 }
 
-int main() {
+int main()
+{
     cout << avarage_with_count(4, 1, 2, 3, 4) << endl;
 }
