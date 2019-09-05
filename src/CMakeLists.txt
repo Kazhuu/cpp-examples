@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 # Use latest C++15 standard.
-set(CMAKE_CXX_STANDARD 20)
+# set(CMAKE_CXX_STANDARD 20)
 
 project(cpp-examples)
 
@@ -17,3 +17,4 @@ add_subdirectory(template_function)
 add_subdirectory(ellipsis)
 add_subdirectory(smart_pointers)
 add_subdirectory(expression_types)
+add_subdirectory(string)

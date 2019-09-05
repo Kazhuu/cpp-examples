@@ -27,9 +27,9 @@ int main()
     int* y = &x;
     // Prints "error: lvalue required as left operand of assignment". This is because lvalue is required
     // for the assignment.
-    13 = x;
+    // 13 = x;
     // Prints "error: lvalue required as unary '&' operand".
-    int* y = & 13;
+    // int* y = &13;
 
     // Illegal assingment with message "error: lvalue required as left operand of assignment".
     // return_rvalue() = 10;
