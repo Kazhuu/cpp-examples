@@ -1,1 +1,2 @@
 add_executable(rvalue_and_lvalue rvalue_and_lvalue.cpp)
+add_executable(rvalue_reference rvalue_reference.cpp)
