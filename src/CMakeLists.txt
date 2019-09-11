@@ -1,6 +1,4 @@
 cmake_minimum_required(VERSION 3.0)
-# Use latest C++15 standard.
-# set(CMAKE_CXX_STANDARD 20)
 
 project(cpp-examples)
 
@@ -19,4 +17,4 @@ add_subdirectory(smart_pointers)
 add_subdirectory(expression_types)
 add_subdirectory(string)
 add_subdirectory(move_semantics)
-add_subdirectory(copy_constructor)
+add_subdirectory(rule_of_three)
