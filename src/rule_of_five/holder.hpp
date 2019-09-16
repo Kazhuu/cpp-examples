@@ -14,10 +14,24 @@ public:
      */
     Holder(const Holder& other);
     /*
+     * Move constructor takes a temporary object as an rvalue reference and
+     * move/steals data from it to newly created object without making copies.
+     * After data has been moved, other object should be left in well defined
+     * state.
+     */
+    Holder(Holder&& other);
+    /*
      * Copy assignment operator takes existing object and copies it's content to
      * the this existing object. Original other object is left untouched.
      */
     Holder& operator=(const Holder& other);
+    /*
+     * Move assignment operator takes a temporary object as an rvalue reference
+     * and move/steals data from it to the this object. This object's data is
+     * deleted and data is moved from the other object. Other object should be
+     * left in well defined stated after.
+     */
+    Holder& operator=(Holder&& other);
     // Implement custom destructor to delete your own managed memory.
     ~Holder();
 private:
