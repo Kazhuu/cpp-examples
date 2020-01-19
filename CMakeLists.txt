@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.8)
 
-# Required C++17 support at least and disable compiler extensions like GNU.
+# Required C++17 support for the whole project and disable compiler extensions
+# like GNU.
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
