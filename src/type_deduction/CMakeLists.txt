@@ -1,3 +1,2 @@
-set(SOURCE_FILES template_type_deduction.cpp)
-
-add_executable(template_type_deduction ${SOURCE_FILES})
+add_executable(template_type_deduction template_type_deduction.cpp)
+add_executable(decltype_type_deduction decltype_type_deduction.cpp)
