@@ -1,15 +1,17 @@
 # C++ Examples
 
 Short code examples to cover different C++ language features for studying
-purposes. Examples are commented so someone can also follow them.
+purposes. Examples are commented so someone can follow them and also origin
+of the example if exists is also given. This is helpful when some seeks original
+source of the information.
 
 ## Getting Started
 
 ### Prerequisites
 
 You will need a C++ compiler with C++17 support, CMake version 3.8 or greater
-for generating a build files and Boost C++ library. Some examples uses Google
-Test testing library to implement unit tests.
+for generating a build files and Boost C++ library. One example shows how to use Google
+Test testing library to implement unit tests, thus that is also needed.
 
 To install CMake you can either compile it yourself or install from APT
 repository. To compiler it yourself follow [this](https://cmake.org/install/)
@@ -35,7 +37,7 @@ sudo apt-get install libboost-all-dev
 
 ### Compiling
 
-First make a build directory to root of the project and cd into it
+First make a build directory to root of the project, then cd into it
 
 ```
 mkdir build
@@ -53,7 +55,6 @@ Then compile examples with
 ```
 cmake --build .
 ```
-
 
 ## Running Examples
 
