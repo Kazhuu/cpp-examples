@@ -1,0 +1,1 @@
+add_executable(null_and_nullptr null_and_nullptr.cpp)
