@@ -1,0 +1,1 @@
+add_executable(alias_declarations alias_declarations.cpp)
