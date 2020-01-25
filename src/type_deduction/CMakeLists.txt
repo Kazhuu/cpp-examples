@@ -1,2 +1,3 @@
 add_executable(template_type_deduction template_type_deduction.cpp)
+add_executable(auto_type_deduction auto_type_deduction.cpp)
 add_executable(decltype_type_deduction decltype_type_deduction.cpp)
